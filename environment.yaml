@@ -1,0 +1,14 @@
+name: binder-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - sklearn
+- matplotlib
+- bqplot
